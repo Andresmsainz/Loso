@@ -51,6 +51,59 @@ p {
 
 }
 
+/* Navigation */
+.navbar-default {
+    background-color: transparent;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #b5b5b5;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #129CF3;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: #b5b5b5;
+}
+
+.navbar-brand {
+    padding: 9px 15px;
+}
+
+.navbar-brand img {
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    background-color: transparent;
+    color: #129CF3;
+    
+}
+
+
+
+
+
+
+
 
 
 /* Header Section */
@@ -112,6 +165,7 @@ p {
     transition: all 1s;
     -webkit-transition: all 1s;
     -o-transition: all 1s;
+    -moz-transition: all 1s;
 }
 
 .btn-download:hover {
@@ -645,5 +699,5 @@ btn-purchase-now:visited
 .scroll-top a i{
     color: white;
     font-size: 25px;
-    
+
 }
