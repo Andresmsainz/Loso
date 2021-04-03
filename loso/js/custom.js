@@ -121,3 +121,9 @@ $(document).ready(function(){
         time: 2000
     });
 });
+
+/* Wow Animation Initialize */
+$(document).ready(function() {
+    'use strict';
+    new WOW().init();
+})
