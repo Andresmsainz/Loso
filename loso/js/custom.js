@@ -84,7 +84,21 @@ $(document).ready(function() {
             } else {
                 $(".navbar-nav li a[href='#" + bb + "']").parent().removeClass("active");
             }
-
         });
     });
+});
+
+/* Add Auto Padding To Header */
+$(document).ready(function() {
+    'use strict';
+    setInterval(function() {
+        'use strict';
+        var windowHeight = $(window).height();
+        var containerHeight = $(".header-container").height();
+        var padTop = windowHeight - containerHeight;
+        $(".header-container").css({
+            'padding-top': Math.round( padTop / 2) + 'px',
+            'padding-bottom': Math.round( padTop / 2) + 'px'
+        });
+    }, 10);
 });
